@@ -197,6 +197,21 @@ const CatalogPage = () => (
                         <div class="col-33"> <img style={{ width:"100%"}} data-outfit-name="green_asymmetrical_neck_crop_top" src="static/images/green_asymmetrical_neck_crop_top/green-asymmetrical-neck-crop-top.jpg" class="lazy"/> </div>
                         <div class="col-33"> <img style={{ width:"100%"}} data-outfit-name="white_buttoned_curved_crop_top" src="static/images/white_buttoned_curved_crop_top/White-Buttoned-Curved-Crop-Top.jpg" class="lazy"/> </div>
                     </div>
+                    <div class="row">
+                        <div class="col-33"> <img style={{ width:"100%"}} data-outfit-name="yellow_flowing_kurti_top" src="static/images/yellow_flowing_kurti_top/yellow_flowing_kurti_top.jpg" class="lazy"/> </div>
+                        <div class="col-33"> <img style={{ width:"100%"}} data-outfit-name="black_printed_cotton_kurti_top" src="static/images/black_printed_cotton_kurti_top/black_printed_cotton_kurti_top.jpg" class="lazy"/> </div>
+                        <div class="col-33"> <img style={{ width:"100%"}} data-outfit-name="pale_yellow_v_neck_kurti_top" src="static/images/pale_yellow_v_neck_kurti_top/pale_yellow_v_neck_kurti_top.jpg" class="lazy"/> </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-33"> <img style={{ width:"100%"}} data-outfit-name="beige_casual_wear_cotton_kurti_top" src="static/images/beige_casual_wear_cotton_kurti_top/beige_casual_wear_cotton_kurti_top.jpg" class="lazy"/> </div>
+                        <div class="col-33"> <img style={{ width:"100%"}} data-outfit-name="blue_design_top" src="static/images/blue_design_top/blue_design_top.jpg" class="lazy"/> </div>
+                        <div class="col-33"> <img style={{ width:"100%"}} data-outfit-name="black_stripped_kurti_top" src="static/images/black_stripped_kurti_top/black_stripped_kurti_top.jpg" class="lazy"/> </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-33"> <img style={{ width:"100%"}} data-outfit-name="blue_cotton_casual_printed_kurti_top" src="static/images/blue_cotton_casual_printed_kurti_top/blue_cotton_casual_printed_kurti_top.jpg" class="lazy"/> </div>
+                        <div class="col-33"> <img style={{ width:"100%"}} data-outfit-name="navy_georgette_layered_casual_wear_kurti_top" src="static/images/navy_georgette_layered_casual_wear_kurti_top/navy_georgette_layered_casual_wear_kurti_top.jpg" class="lazy"/> </div>
+                        <div class="col-33"> <img style={{ width:"100%"}} data-outfit-name="blue_cotton_casual_wear_kurti_top" src="static/images/blue_cotton_casual_wear_kurti_top/blue_cotton_casual_wear_kurti_top.jpg" class="lazy"/> </div>
+                    </div>
                 </div>
             </div>
 
@@ -420,6 +435,16 @@ const CatalogPage = () => (
                     </div>
                     <div class="row">
                         <div class="col-33"> <img style={{ width:"100%"}} data-outfit-name="light_blue_high_waisted_cropped_skinny_jeans" src="static/images/light_blue_high_waisted_cropped_skinny_jeans/light-blue-high-waisted-cropped-skinny-jeans-back.jpg" class="lazy"/> </div>
+                        <div class="col-33"> <img style={{ width:"100%"}} data-outfit-name="yellow_legging_pants" src="static/images/yellow_legging_pants/yellow_legging_pants.jpg" class="lazy"/> </div>
+                        <div class="col-33"> <img style={{ width:"100%"}} data-outfit-name="black_legging_pants" src="static/images/black_legging_pants/black_legging_pants.jpg" class="lazy"/> </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-33"> <img style={{ width:"100%"}} data-outfit-name="red_legging_pants" src="static/images/red_legging_pants/red_legging_pants.jpg" class="lazy"/> </div>
+                        <div class="col-33"> <img style={{ width:"100%"}} data-outfit-name="white_legging_pants" src="static/images/white_legging_pants/white_legging_pants.jpg" class="lazy"/> </div>
+                        <div class="col-33"> <img style={{ width:"100%"}} data-outfit-name="beige_legging_pants" src="static/images/beige_legging_pants/beige_legging_pants.jpg" class="lazy"/> </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-33"> <img style={{ width:"100%"}} data-outfit-name="grey_legging_pants" src="static/images/grey_legging_pants/grey_legging_pants.jpg" class="lazy"/> </div>
                     </div>
                 </div>
             </div>
