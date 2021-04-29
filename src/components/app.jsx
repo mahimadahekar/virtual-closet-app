@@ -64,34 +64,34 @@ const MyApp = () => {
     <App { ...f7params } >
 
         {/* Left panel with cover effect*/}
-        <Panel left cover themeDark>
+        {/* <Panel left cover themeDark>
           <View>
             <Page>
               <Navbar title="Left Panel"/>
               <Block>Left panel content goes here</Block>
             </Page>
           </View>
-        </Panel>
+        </Panel> */}
 
 
         {/* Right panel with reveal effect*/}
-        <Panel right reveal themeDark>
+        {/* <Panel right reveal themeDark>
           <View>
             <Page>
               <Navbar title="Right Panel"/>
               <Block>Right panel content goes here</Block>
             </Page>
           </View>
-        </Panel>
+        </Panel> */}
 
 
         {/* Views/Tabs container */}
         <Views tabs className="safe-areas">
           {/* Tabbar for switching views-tabs */}
           <Toolbar tabbar labels bottom>
-            <Link tabLink="#view-home" tabLinkActive iconIos="f7:house_fill" iconAurora="f7:house_fill" iconMd="material:home" text="Home" />
-            <Link tabLink="#view-catalog" iconIos="f7:square_list_fill" iconAurora="f7:square_list_fill" iconMd="material:view_list" text="Catalog" />
-            <Link tabLink="#view-settings" iconIos="f7:gear" iconAurora="f7:gear" iconMd="material:settings" text="Settings" />
+            <Link tabLink="#view-home" tabLinkActive iconIos="f7:pencil_outline" iconAurora="f7:pencil_outline" iconMd="material:home" text="Matcher" />
+            <Link tabLink="#view-catalog" iconIos="f7:circle_grid_3x3_fill" iconAurora="f7:circle_grid_3x3_fill" iconMd="material:view_list" text="Closet" />
+            <Link tabLink="#view-settings" iconIos="f7:gear_alt_fill" iconAurora="f7:gear_alt_fill" iconMd="material:settings" text="Settings" />
           </Toolbar>
 
           {/* Your main view/tab, should have "view-main" class. It also has "tabActive" prop */}

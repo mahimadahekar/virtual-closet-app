@@ -17,7 +17,7 @@ const SettingsPage = () => (
   <Page name="settings">
     <Navbar title="Settings" />
 
-    <BlockTitle>Form Example</BlockTitle>
+    <BlockTitle>My Profile</BlockTitle>
     <List noHairlinesMd>
       <ListInput
         label="Name"
@@ -65,12 +65,12 @@ const SettingsPage = () => (
       ></ListInput>
 
       <ListItem
-        title="Toggle"
+        title="Get Notifications"
       >
         <Toggle slot="after" />
       </ListItem>
 
-      <ListInput
+      {/* <ListInput
         label="Range"
         input={false}
       >
@@ -87,10 +87,10 @@ const SettingsPage = () => (
         label="Resizable"
         placeholder="Bio"
         resizable
-      ></ListInput>
+      ></ListInput> */}
     </List>
 
-    <BlockTitle>Buttons</BlockTitle>
+    {/* <BlockTitle>Buttons</BlockTitle>
     <Block strong>
       <Row tag="p">
         <Button className="col">Button</Button>
@@ -168,7 +168,7 @@ const SettingsPage = () => (
         value="Food"
         title="Food"
       ></ListItem>
-    </List>
+    </List> */}
   </Page>
 );
 
