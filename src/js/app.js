@@ -41,6 +41,18 @@ $("#choose_file").on('click', function () {
   $("#file_input_gallery").trigger('click');
 });
 
+$(document).on('change','#file_input_gallery',function(){
+// $("#file_input_gallery").on('change', function(){
+  $("#fab_button").removeClass('fab-center-center');
+  $("#fab_button").addClass('fab-center-top',1000);
+
+  var reader = new FileReader();
+  reader.onload = function (e) {
+    $('.inspo_photo').attr('src', e.target.result);
+  }
+  reader.readAsDataURL($('#file_input_gallery')[0].files[0]);
+});
+
 $("#click_photo").on('click', function () {
   $("#file_input_camera").trigger('click');
 });
@@ -76,11 +88,18 @@ $('#find_look').on('click', function() {
         $('#match_results_container').append('<p>We could not find any matching items from your closet</p>');
       }
 
-      $.each(outfits , function(index, val) {
-        console.log(index, val);
-        // $('img[data-outfit-name='+val+']')[0].src
-        $('#match_results_container').append('<div class="col-33"> <img style="width:100%" data-outfit-name="'+val+'" src="'+$('img[data-outfit-name='+val+']')[0].src+'" class="lazy"/> </div>');
-      });
+      if (outfits.length == 1){
+        $('#match_results_container').append('<div class="col-25">');
+        $.each(outfits , function(index, val) {
+          $('#match_results_container').append('<div class="col-50"> <img style="width:100%" data-outfit-name="'+val+'" src="'+$('img[data-outfit-name='+val+']')[0].src+'" class="lazy"/> </div>');
+        });
+        $('#match_results_container').append('<div class="col-25">');
+      }else{
+        $.each(outfits , function(index, val) {
+          $('#match_results_container').append('<div class="col-33"> <img style="width:100%" data-outfit-name="'+val+'" src="'+$('img[data-outfit-name='+val+']')[0].src+'" class="lazy"/> </div>');
+        });
+      }
+
 
       $('#match_results_open').trigger('click');
 

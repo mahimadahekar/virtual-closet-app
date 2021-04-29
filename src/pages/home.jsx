@@ -42,7 +42,7 @@ const HomePage = () => (
 
     {/* Page content */}
 
-    <div class="fab fab-center-center">
+    <div id="fab_button" class="fab fab-center-center">
         <a href="#">
             <i class="icon f7-icons if-not-md">photo</i>
             <i class="icon f7-icons if-not-md">photo_fill</i>
@@ -63,8 +63,22 @@ const HomePage = () => (
         </div>
     </div>
 
+    <div class="block">
+        <div class="row margin-top"></div>
+        <div class="row margin-top"></div>
+        <div class="row margin-top"></div>
+        <div class="row margin-top"></div>
+        <div class="row">
+            <div class="col-10"></div>
+            <div class="col-80">
+                <img style={{ width:"100%"}} src="" class="lazy inspo_photo"/>
+            </div>
+            <div class="col-10"></div>
+        </div>
+    </div>
+
     {/* <div class="block-title">Preloader Buttons</div> */}
-    <div class="block" style={{ position:"absolute" , bottom:"20%", width:"100%" }}>
+    <div class="block" style={{ position:"absolute" , bottom:"10%", width:"100%" }}>
         <button id="find_look" class="button button-large button-fill button-preloader">
             <span class="preloader"></span>
             <span>Find Me A Look</span>
@@ -74,6 +88,15 @@ const HomePage = () => (
     <button class="popup-open" data-popup=".popup-match-results" id="match_results_open" style={{display:"none"}}></button>
     <div class="popup popup-match-results">
         <div class="block">
+            <div class="block-title">Your Inspiration Photo</div>
+            <div class="row">
+                <div class="col-25"></div>
+                <div class="col-50">
+                    <img style={{ width:"100%"}} src="" class="lazy inspo_photo"/>
+                </div>
+                <div class="col-25"></div>
+            </div>
+
             <div class="block-title">Here Are Your Matching Styles</div>
 
             <div class="block">
